@@ -1,0 +1,8 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .quote:before {
+        display: none;
+    }
+    .quote:after {
+        display: none;
+    }
+}
