@@ -77,6 +77,13 @@ p{
 	font-family: OpenSansRegular;
 	font-size: 13px; 
 }
+blockquote{
+	font-family: OpenSansRegular;
+    font-size: 13px;
+    border: none;
+    padding: 0;
+}
+
 ul li{
 	display: inline-block;
 }
@@ -503,7 +510,24 @@ input[type=submit]:hover{
 .client-name span{
 	color: #f78d58;
 }
-.quote:before {
+blockquote:before {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url(../images/img1.jpg)no-repeat;
+    margin: 3px -20px;
+    padding: 0 17px;
+}
+blockquote:after {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url(../images/img2.png)no-repeat;
+    margin-left: 20px;
+}
+/*.quote:before {
     content: '';
     display: inline-block;
     width: 13px;
@@ -519,7 +543,7 @@ input[type=submit]:hover{
     height: 13px;
     background: url(../images/img2.png)no-repeat;
     margin-left: 20px;
-}
+}*/
 .contact{
 	color: #394b50;
 	padding-bottom: 0;
