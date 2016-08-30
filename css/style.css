@@ -62,12 +62,6 @@
 a{
 	outline: none !important;
 }
-/*h1{
-	font-family: Gotham Black Regular;
-	font-size: 30px;
-	text-transform: uppercase;
-	text-align: center;
-}*/
 h2{
 	font-family: Gotham Black Regular;
 	font-size: 30px;
@@ -271,13 +265,6 @@ input[type=submit]:hover{
 	padding-left: 22px;
 	cursor: pointer;
 }
-/*.service h2{
-	font-family: Lato-Bold;
-	font-size: 16px;
-	text-transform: uppercase;
-	color: #394b50;
-	margin-top: 0!important;
-}*/
 .service h3{
 	font-family: Lato-Bold;
 	font-size: 16px;
