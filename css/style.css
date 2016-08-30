@@ -882,5 +882,8 @@ footer{
 	.service-wrap{
 		text-align: center;
 	}
+	.client-box{
+		padding: 35px 22px;
+	}
 
 }
