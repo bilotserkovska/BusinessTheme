@@ -62,7 +62,13 @@
 a{
 	outline: none !important;
 }
-h1{
+/*h1{
+	font-family: Gotham Black Regular;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}*/
+h2{
 	font-family: Gotham Black Regular;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -265,7 +271,14 @@ input[type=submit]:hover{
 	padding-left: 22px;
 	cursor: pointer;
 }
-.service h2{
+/*.service h2{
+	font-family: Lato-Bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #394b50;
+	margin-top: 0!important;
+}*/
+.service h3{
 	font-family: Lato-Bold;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -310,7 +323,7 @@ input[type=submit]:hover{
 	background-size: 100% 100%;
 	color: #fff;
 }
-.about h1{
+.about h2{
 	text-align: left;
 }
 .about .row div{
@@ -377,7 +390,7 @@ input[type=submit]:hover{
     background: #709dca;
     padding: 76px 30px !important;
 }
-.price-box h1{
+.price-box h2{
 	font-family: Lato-Light;
 	font-size: 25px;
 	color: #818b95;
@@ -465,7 +478,7 @@ input[type=submit]:hover{
 .step{
 	padding: 0 40px !important;
 }
-.step h1{
+.step h2{
 	font-family: Lato-Bold;
 	font-size: 20px;
 	color: #394b50;
@@ -577,20 +590,19 @@ input[type=submit]:hover{
 	margin-bottom: 56px;
 	text-align: center;
 }
-.address{
+address{
 	width: 288px;
-	height: 296px;
+	line-height: 29px;
 	padding: 55px;
 	background: url(../images/address-bg.png) no-repeat;
 	color: #aeb7ba;
 	margin: 0 auto;
 	text-align: center;
 }
-.address h3{
+.address{
 	font-family: Lato-Bold;
 	font-size: 15px;
 	color: #fff;
-	margin: 0 0 20px 0;
 	text-transform: uppercase;
 }
 .email{
@@ -737,7 +749,7 @@ footer{
 	    margin: 10px auto;
 	    padding: 13px 20px;
 	}
-	.price-box h1 {
+	.price-box h2 {
 	    font-size: 23px;
 	}
 	.step {
